@@ -25,7 +25,7 @@ export default function Experience({ profile }) {
       />
       <div aria-hidden="true" className="absolute inset-0 bg-grid opacity-40" />
 
-      <div className="relative mx-auto max-w-6xl px-6 py-28 md:py-36">
+      <div className="relative mx-auto max-w-[min(92%,1024px)] px-6 py-28 md:py-36">
         <SectionHeading number="02" eyebrow="Experience" title="Where I've worked" />
 
         <div className="overflow-hidden rounded-3xl border border-white/70 shadow-xl shadow-ink-900/10 backdrop-blur-2xl">

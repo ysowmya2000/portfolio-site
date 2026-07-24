@@ -30,7 +30,7 @@ export default function Hero({ profile }) {
         className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/0 via-white/60 to-white"
       />
 
-      <div className="relative mx-auto flex max-w-6xl flex-col-reverse items-center gap-20 md:flex-row md:items-center md:justify-center md:gap-20">
+      <div className="relative mx-auto flex max-w-[min(92%,1024px)] flex-col-reverse items-center gap-20 md:flex-row md:items-center md:justify-center md:gap-20">
         <div className="w-full md:max-w-2xl">
           <motion.p
             initial={{ opacity: 0, y: 12 }}

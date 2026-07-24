@@ -23,7 +23,7 @@ export default function Skills({ profile }) {
       />
       <div aria-hidden="true" className="absolute inset-0 bg-grid opacity-40" />
 
-      <div className="relative mx-auto max-w-6xl px-6 py-28 md:py-36">
+      <div className="relative mx-auto max-w-[min(92%,1024px)] px-6 py-28 md:py-36">
         <SectionHeading number="05" eyebrow="Skills" title="What I work with" />
 
         <div className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">

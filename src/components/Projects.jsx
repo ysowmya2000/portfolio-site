@@ -26,7 +26,7 @@ export default function Projects({ profile }) {
       />
       <div aria-hidden="true" className="absolute inset-0 bg-grid opacity-40" />
 
-      <div className="relative mx-auto max-w-6xl px-6 py-28 md:py-36">
+      <div className="relative mx-auto max-w-[min(92%,1024px)] px-6 py-28 md:py-36">
         <SectionHeading number="03" eyebrow="Projects" title="What I've built" />
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
