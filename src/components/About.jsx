@@ -18,7 +18,7 @@ export default function About({ profile }) {
       />
       <div aria-hidden="true" className="absolute inset-0 bg-grid opacity-[0.06]" />
 
-      <div className="relative mx-auto max-w-7xl px-6">
+      <div className="relative mx-auto max-w-6xl px-6">
         <motion.div
           variants={fadeUp}
           initial="hidden"
