@@ -30,7 +30,7 @@ export default function Contact({ profile }) {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.4 }}
-        className="relative mx-auto max-w-[min(92%,1024px)] px-6 py-24 md:py-32"
+        className="relative mx-auto max-w-[min(92%,1280px)] px-6 py-24 md:py-32"
       >
         <div className="text-center">
           <p className="text-sm font-medium uppercase tracking-widest text-accent-400">

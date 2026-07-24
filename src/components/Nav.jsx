@@ -62,7 +62,7 @@ export default function Nav({ name }) {
         className="absolute bottom-0 left-0 h-[2px] w-full origin-left bg-gradient-to-r from-accent-500 to-sky-400"
       />
 
-      <nav className="mx-auto flex max-w-[min(92%,1024px)] items-center justify-between px-6 py-4">
+      <nav className="mx-auto flex max-w-[min(92%,1280px)] items-center justify-between px-6 py-4">
         <a href="#top" className="font-serif text-2xl font-semibold tracking-tight text-ink-950">
           {name}
         </a>

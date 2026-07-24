@@ -24,7 +24,7 @@ export default function Education({ profile }) {
       />
       <div aria-hidden="true" className="absolute inset-0 bg-grid opacity-40" />
 
-      <div className="relative mx-auto max-w-[min(92%,1024px)] px-6 py-28 md:py-36">
+      <div className="relative mx-auto max-w-[min(92%,1280px)] px-6 py-28 md:py-36">
         <SectionHeading number="04" eyebrow="Education" title="Where I learned" />
 
         <div className="grid gap-6 sm:grid-cols-2">
