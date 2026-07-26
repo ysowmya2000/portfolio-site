@@ -42,10 +42,10 @@ export default function Education({ profile }) {
             >
               <CompanyLogo name={ed.school} logoUrl={ed.logo} size={64} />
 
-              <h3 className="mt-5 font-serif text-2xl font-semibold text-ink-950">
+              <h3 className="mt-5 font-serif text-xl font-semibold text-ink-950">
                 {ed.school}
               </h3>
-              <p className="mt-1 text-base text-ink-700">{ed.degree}</p>
+              <p className="mt-1 text-sm text-ink-700">{ed.degree}</p>
 
               {ed.coursework && ed.coursework.length > 0 && (
                 <div className="mt-6">

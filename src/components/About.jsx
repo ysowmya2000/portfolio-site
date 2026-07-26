@@ -29,7 +29,7 @@ export default function About({ profile }) {
           <p className="text-sm font-medium uppercase tracking-widest text-accent-300">
             01 · About
           </p>
-          <h2 className="mt-2 font-display text-4xl font-semibold tracking-tight text-white md:text-5xl">
+          <h2 className="mt-2 font-display text-3xl font-semibold tracking-tight text-white md:text-4xl">
             A bit about me
           </h2>
         </motion.div>
@@ -45,7 +45,7 @@ export default function About({ profile }) {
             {profile.about.map((p, i) => (
               <p
                 key={i}
-                className="text-lg [&_strong]:font-semibold [&_strong]:text-white"
+                className="text-base [&_strong]:font-semibold [&_strong]:text-white"
                 dangerouslySetInnerHTML={{ __html: p }}
               />
             ))}
@@ -68,7 +68,7 @@ export function SectionHeading({ number, eyebrow, title }) {
       <p className="text-sm font-medium uppercase tracking-widest text-accent-500">
         {number ? `${number} · ${eyebrow}` : eyebrow}
       </p>
-      <h2 className="mt-2 font-display text-4xl font-semibold tracking-tight text-ink-900 md:text-5xl">
+      <h2 className="mt-2 font-display text-3xl font-semibold tracking-tight text-ink-900 md:text-4xl">
         {title}
       </h2>
     </motion.div>

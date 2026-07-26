@@ -46,7 +46,7 @@ export default function Hero({ profile }) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="mt-6 text-balance font-display text-5xl font-semibold leading-[1.05] tracking-tight text-ink-900 md:text-6xl"
+            className="mt-6 text-balance font-display text-4xl font-semibold leading-[1.05] tracking-tight text-ink-900 md:text-5xl"
           >
             Hi, I'm {profile.name.split(" ")[0]} —{" "}
             <span className="bg-gradient-to-r from-accent-500 to-sky-400 bg-clip-text text-transparent">
@@ -58,7 +58,7 @@ export default function Hero({ profile }) {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="mt-6 max-w-xl text-balance text-lg leading-relaxed text-ink-500"
+            className="mt-6 max-w-xl text-balance text-base leading-relaxed text-ink-500"
           >
             {profile.tagline}
           </motion.p>

@@ -35,10 +35,10 @@ export default function Contact({ profile }) {
           <p className="text-sm font-medium uppercase tracking-widest text-accent-400">
             06 · Contact
           </p>
-          <h2 className="mt-2 text-balance font-display text-4xl font-semibold tracking-tight text-white md:text-5xl">
+          <h2 className="mt-2 text-balance font-display text-3xl font-semibold tracking-tight text-white md:text-4xl">
             Let's talk
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-balance text-lg leading-relaxed text-ink-200">
+          <p className="mx-auto mt-4 max-w-xl text-balance text-base leading-relaxed text-ink-200">
             Interested in discussing opportunities, collaboration, or just
             want to chat about evolving AI? I'd love to hear and learn from
             you!
@@ -74,7 +74,7 @@ export default function Contact({ profile }) {
                   {d.label}
                 </p>
                 {d.value && (
-                  <p className="mt-2 text-lg font-medium text-white">{d.value}</p>
+                  <p className="mt-2 text-base font-medium text-white">{d.value}</p>
                 )}
                 {d.note && (
                   <p className="mt-1 text-base font-medium text-violet-400">{d.note}</p>

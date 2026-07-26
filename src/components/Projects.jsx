@@ -54,11 +54,11 @@ export default function Projects({ profile }) {
                   </p>
                 )}
 
-                <h3 className="mt-2 font-serif text-xl font-semibold text-ink-950">
+                <h3 className="mt-2 font-serif text-lg font-semibold text-ink-950">
                   {p.title}
                 </h3>
 
-                <p className="mt-3 flex-1 text-base leading-relaxed text-ink-500">
+                <p className="mt-3 flex-1 text-sm leading-relaxed text-ink-500">
                   {p.description}
                 </p>
 

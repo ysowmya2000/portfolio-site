@@ -43,10 +43,10 @@ export default function Skills({ profile }) {
 
               <ul className="mt-5 space-y-3">
                 {group.items.map((item) => (
-                  <li key={item.name} className="font-serif text-lg text-ink-950">
+                  <li key={item.name} className="font-serif text-base text-ink-950">
                     {item.name}
                     {item.note && (
-                      <span className="ml-1.5 text-base italic text-ink-400">
+                      <span className="ml-1.5 text-sm italic text-ink-400">
                         {item.note}
                       </span>
                     )}
