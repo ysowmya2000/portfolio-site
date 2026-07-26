@@ -8,7 +8,6 @@ const fadeUp = {
 
 const DETAILS = [
   { label: "Email", value: "swmyerraguntla@gmail.com" },
-  { label: "Phone", value: "" },
   { label: "Based in", value: "New York", note: "Willing to relocate" },
   { label: "Status", value: "Open to full-time roles and research collaborations" },
 ];
@@ -68,7 +67,7 @@ export default function Contact({ profile }) {
         </div>
 
         <div className="mx-auto mt-16 max-w-3xl border-t border-white/10 pt-10">
-          <div className="grid grid-cols-2 gap-x-6 gap-y-8 md:grid-cols-4">
+          <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-3">
             {DETAILS.map((d) => (
               <div key={d.label}>
                 <p className="text-sm font-medium uppercase tracking-widest text-ink-400">

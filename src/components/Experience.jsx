@@ -43,17 +43,17 @@ export default function Experience({ profile }) {
                 i % 2 === 0 ? "bg-white/50" : "bg-white/20"
               }`}
             >
-              <p className="font-mono text-sm tracking-wide text-ink-700">
+              <p className="font-mono text-xs tracking-wide text-ink-700">
                 {job.period}
               </p>
 
               <div className="flex items-start gap-3">
-                <CompanyLogo name={job.org} logoUrl={job.logo} size={62} />
+                <CompanyLogo name={job.org} logoUrl={job.logo} size={54} />
                 <div className="min-w-0">
-                  <h3 className="font-serif text-xl font-semibold leading-tight text-ink-950">
+                  <h3 className="font-serif text-lg font-semibold leading-tight text-ink-950">
                     {job.org}
                   </h3>
-                  <p className="text-base text-ink-900">{job.role}</p>
+                  <p className="text-sm text-ink-900">{job.role}</p>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ export default function Experience({ profile }) {
                 {job.bullets.map((b, j) => (
                   <li
                     key={j}
-                    className="flex gap-2 text-base leading-relaxed text-ink-900"
+                    className="flex gap-2 text-sm leading-relaxed text-ink-900"
                   >
                     <span className="mt-0.5 shrink-0 text-accent-500">→</span>
                     {b}
